@@ -12,6 +12,7 @@ export const repositoryPodcast = async (podcastName?: string): Promise<Podcast[]
 
     if (podcastName){
         jsonFile = jsonFile.filter((podcast:Podcast)=> podcast.podcastName===podcastName)
+        return jsonFile
     }
 
     return jsonFile
