@@ -1,4 +1,5 @@
 export enum HTTPStatusCode{
-    ok = 200,
+    Ok = 200,
+    NoContent = 204,
 
 }
